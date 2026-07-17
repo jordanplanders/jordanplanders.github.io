@@ -1,0 +1,9 @@
+---
+title: GEOL 351 - Climate Dynamics
+toc: true
+sidebar: true
+theme: cosmo 
+---
+
+
+# GEOL351: Climate Dynamics

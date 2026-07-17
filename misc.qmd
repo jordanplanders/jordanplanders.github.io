@@ -1,0 +1,6 @@
+---
+title: Etc.
+toc: true
+sidebar: home_nav
+theme: cosmo 
+---

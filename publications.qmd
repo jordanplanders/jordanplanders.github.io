@@ -1,0 +1,7 @@
+---
+title: Publications
+toc: true
+sidebar: home_nav
+theme: cosmo
+---
+

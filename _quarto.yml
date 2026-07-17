@@ -1,0 +1,111 @@
+project:
+  type: website
+  output-dir: _site
+  pre-render:
+    - python3 scripts/build_sidebar_nav.py
+# metadata-files:
+#   - satellite/_metadata.yml
+
+website:
+  title: "Jordan Landers"
+  navbar: false
+  sidebar:
+    - id: home_nav
+      logo: "assets/img/profile-img-nav.png"
+      align: center
+      tools: 
+        - icon: globe
+          href: index.qmd
+          text: "Home"
+        - icon: github
+          href: https://github.com/jordanplanders
+          text: "Github profie"
+        - icon: twitter
+          href: https://bsky.app/profile/jordanplanders.bsky.social
+          text: "BlueSky"     
+        - icon: google
+          href: https://scholar.google.com/citations?hl=en&user=1PVSSxwAAAAJ
+          text: "Google Scholar"   
+        - icon: linkedin
+          href: https://orcid.org/0000-0001-9772-7617
+          text: "ORCID" 
+      style: "docked"
+      search: true
+      collapse-level: 1
+      contents:
+        - text: "Home"
+          href: index.qmd
+        - section: "Research"
+          contents:
+            - text: "Nonlinear Causality"
+              href: science/nonlin_causality.qmd
+            # - text: "Watermass Geometry"
+            #   href: science/watermass_geo.qmd
+            - text: "Etc."
+              href: science/etc.qmd
+        - text: "Open Science & Edu"
+          href: openscience_edu.qmd
+            # - text: "PaleoBooks"
+            #   href: open_science/paleobooks.qmd
+            # - text: "GEOL351"
+            #   href: open_science/geol351.qmd
+        - text: "Software"
+          href: software.qmd
+            # - text: "Pyleoclim"
+            #   href: https://pyleoclim-util.readthedocs.io/en/latest/
+            # - text: "Cedarkit"
+            #   href: software/cedarkit.qmd
+            # - text: "ClimateCritters"      
+            #   href: software/climatecritters.qmd
+        - text: "Presentations & Publications"
+          href: pres_pub.qmd 
+        - text: "Etc."
+          href: misc.qmd    
+      # contents:
+      #   - text: "Home"
+      #     href: index.qmd
+      #   - section: "Research"
+      #     contents:
+      #       - text: "Nonlinear Causality"
+      #         href: science/nonlin_causality.qmd
+      #       - text: "Watermass Geometry"
+      #         href: science/watermass_geo.qmd
+      #       - text: "Etc."
+      #         href: science/etc.qmd
+      #   - section: "Open Science & Edu"
+      #     contents:
+      #       - text: "About"
+      #         href: openscience_edu.qmd
+      #       # - text: "PaleoBooks"
+      #       #   href: open_science/paleobooks.qmd
+      #       # - text: "GEOL351"
+      #       #   href: open_science/geol351.qmd
+      #   - section: "Software"
+      #     contents:
+      #       - text: "About"
+      #         href: software.qmd
+      #       # - text: "Pyleoclim"
+      #       #   href: https://pyleoclim-util.readthedocs.io/en/latest/
+      #       # - text: "Cedarkit"
+      #       #   href: software/cedarkit.qmd
+      #       # - text: "ClimateCritters"      
+      #       #   href: software/climatecritters.qmd
+      #   - text: "Presentations & Publications"
+      #     href: pres_pub.qmd 
+      #   - text: "Etc."
+      #     href: misc.qmd    
+       
+
+
+format:
+  html:
+    toc: true
+    toc-location: right
+    theme: none
+    include-in-header: _includes/head.html
+    # include-before-body: _includes/before-body.html
+    include-after-body: _includes/after-body.html
+
+
+
+ 

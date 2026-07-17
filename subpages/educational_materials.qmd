@@ -1,0 +1,2 @@
+- **2022**. J.P. Landers, and J. Emile-Geay. "LMR-CMIP6 Paleobook, \url{https://linked.earth/LMR_CMIP_paleobook/README.html}". PaleoBooks Library.
+- **2022**. J.P. Landers. "C-iTRACE (and friends) PaleoBook, \url{https://linked.earth/citrace_paleobook/README.html}". PaleoBooks Library.

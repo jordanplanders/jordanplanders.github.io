@@ -1,0 +1,193 @@
+/* -------------------------------------------
+   Splash section spacing normalization
+   ------------------------------------------- */
+
+/* Consistent vertical rhythm across splash sections
+section.about,
+section.resume,
+section.news,
+section.community,
+section.contact {
+  padding: 20px 0;
+}
+
+/* Consistent spacing under section title blocks 
+/* .section-title { 
+  /* padding-bottom: 0px;    /* template uses padding-bottom for underline spacing */
+  /* margin-bottom: 14px;     /* controls gap before content 
+} */
+
+/* .section-title h2::after {
+   margin: 8px 0 12px 0; /* top | right | bottom | left 
+} */ 
+
+/* Avoid double-margin stacking: first heading after section title */
+.section-title + h2,
+.section-title + h3,
+.section-title + h4,
+.section-title + .row,
+.section-title + .container {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Reduce vertical spacing above resume subsection headings */
+.resume .resume-title {
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+/* Keep the very first resume title flush under the section title */
+/* .resume .resume-title:first-of-type {
+  margin-top: -20px;
+} */
+
+/* Resume items: keep readable but not airy */
+/* .resume .resume-item {
+  padding: 0 0 14px 18px;  /* template-like */
+  /* margin-top: 10px;
+} */ 
+
+/* Job / degree title */
+/* .resume .resume-item h4 {
+  font-size: 18px;
+  line-height: 1.25;
+  margin-bottom: 4px;
+} */
+
+/* Dates */
+/* .resume .resume-item h5 {
+  font-size: 14px;
+  line-height: 1.2;
+  margin-bottom: 6px;
+} */
+
+/* Institution / org line */
+/* .resume .resume-item p {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: lighter;
+} */
+
+
+/* Institution / org line */
+/* .resume .resume-item em {
+  font-size: 14px;
+  font-weight: bold;
+} */
+
+/* Bullet lists */
+/* .resume .resume-item ul {
+  font-size: 14px;
+  margin-top: 6px;
+} */
+
+/* Lists in splash sections: reduce excessive bottom spacing */
+section.about ul,
+section.resume ul,
+section.news ul,
+section.community ul {
+  margin-bottom: 0;
+}
+
+/* Optional: if Quarto still emits a title block anywhere you don't want */
+body.home .quarto-title-block {
+  display: none !important;
+}
+
+
+/* Reduce the big title-to-content gap across splash sections */
+.section-title {
+  padding-bottom: 12px !important;  /* was likely ~30px */
+  margin-bottom: 16px !important;
+}
+
+/* Reduce the big title-to-content gap across splash sections */
+.resume .section-title {
+  padding-bottom: 0px !important;  /* was likely ~30px */
+  margin-bottom: 10px !important;
+}
+
+/* If there's still space before the first row inside sections */
+/* section .section-title + .row {
+  margin-top: 0 !important;
+} */
+
+/* Sidebar grouped navigation labels and dropdowns */
+
+/* #quarto-sidebar .sidebar-item-text,
+#quarto-sidebar .sidebar-link,
+#quarto-sidebar .sidebar-title,
+#quarto-sidebar .menu-text {
+  color: #e6e6e6 !important;
+}
+
+#quarto-sidebar .sidebar-item-toggle,
+#quarto-sidebar .bi,
+#quarto-sidebar .sidebar-tools-main a {
+  color: #9aa0a6 !important;
+} */
+
+
+#header #navbar.nav-menu.navbar {
+  display: block;
+}
+
+#header #navbar.nav-menu.navbar > ul + ul {
+  border-top: 1px solid rgba(111, 113, 128, 0.45);
+  padding-top: 12px;
+  margin-top: 6px;
+}
+
+#navbar .nav-section-label {
+  color: #6f7180;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-top: 14px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+#navbar .nav-dropdown details {
+  margin: 2px 0;
+}
+
+#navbar .nav-dropdown summary {
+  align-items: center;
+  color: #a8a9b4;
+  cursor: pointer;
+  display: flex;
+  font-size: 15px;
+  list-style: none;
+  padding: 12px 15px;
+  white-space: nowrap;
+}
+
+#navbar .nav-dropdown summary::-webkit-details-marker {
+  display: none;
+}
+
+#navbar .nav-dropdown summary i {
+  font-size: 24px;
+  padding-right: 8px;
+}
+
+#navbar .nav-dropdown summary:hover,
+#navbar .nav-dropdown details[open] > summary {
+  color: #149ddd;
+}
+
+#navbar .nav-dropdown ul {
+  padding-left: 14px;
+}
+
+/* Tighten markdown lists rendered as <li><p>...</p></li> */
+#main li > p {
+  margin-bottom: 0;
+}
+
+/* Overview cards: clicking image area applies matching filter */
+.portfolio .portfolio-wrap[data-filter-trigger] {
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+---
+title: Presentations & Publications
+format:
+  html:
+    sidebar: home_nav
+    execute:
+      echo: false
+    toc: true
+    toc-location: right
+    theme: cosmo
+---
+
+## Presentations
+### Conference Talks
+
+{{< include subpages/conference_talks.qmd >}}
+
+### Seminars
+
+{{< include subpages/seminars.qmd >}}
+
+### Posters
+
+{{< include subpages/posters.qmd >}}
+
+
+## Publications
+### Articles
+
+{{< include subpages/articles.qmd >}}
+
+
+### Educational Materials
+
+{{< include subpages/educational_materials.qmd >}}

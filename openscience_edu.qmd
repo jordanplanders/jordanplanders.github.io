@@ -1,0 +1,19 @@
+---
+title: Open Science & Education
+format:
+  html:
+    sidebar: home_nav
+    execute:
+      echo: false
+    toc: true
+    toc-location: right
+    theme: cosmo
+
+---
+
+## Open Science
+
+## Education
+
+
+## References

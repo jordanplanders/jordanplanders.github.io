@@ -9,6 +9,7 @@
     url('../fonts/boxicons.woff2') format('woff2'),
     url('../fonts/boxicons.woff') format('woff'),
     url('../fonts/boxicons.ttf') format('truetype'),
+    url('../fonts/boxicons.svg?#Orcid--Streamline-Font-Awesome') format('svg'),
     url('../fonts/boxicons.svg?#boxicons') format('svg');
 }
 .bx
