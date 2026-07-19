@@ -12,7 +12,7 @@ format:
 
 ## Convergent Cross-Mapping 
 
-### CedarKit
+### CedarKit {#cedarkit}
 
 CedarKit is a toolkit to support Convergent Cross Mapping (CCM) and Empirical Dynamic Modeling (EDM) analysis, built on top of pyEDM. It handles the parts around the actual causal-inference calculations: setting up a project, running and organizing the computations, processing the results, and visualizing them.
 
@@ -29,9 +29,9 @@ GPL-3.0 licensed.
 
 ## Linked Earth
 
-### [Pyleoclim](https://pyleoclim-util.readthedocs.io/en/latest/)
+### [Pyleoclim](https://pyleoclim-util.readthedocs.io/en/latest/) {#pyleoclim}
 
-### Climate Critters
+### Climate Critters {#climatecritters}
 
 ClimateCritters is a Python package that gathers minimal, well-understood models of climate dynamics into one unified, object-oriented interface — an attempt to bring the "model organism" approach from biology to climate science. Rather than building ever-larger Earth System Models, ClimateCritters focuses on small, fully-explorable systems (like Lorenz's 3-equation convection model, which birthed chaos theory) that still exhibit the hallmarks of complex behavior: chaos, multiple equilibria, tipping points, and intermittency.
 

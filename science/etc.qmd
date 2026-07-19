@@ -12,7 +12,7 @@ format:
 ---
 
 
-## Watermass Geometry - Classification by Tracer Distributions
+## Watermass Geometry - Classification by Tracer Distributions {#wmg_tracers}
 
 Ocean circulation leaves its signature in the distribution of chemical tracers — temperature, salinity, dissolved oxygen, phosphate — and the geometry of these distributions encodes the structure of water masses: where they form, how they mix, and how they evolve. Paleoceanographers rely on this geometry constantly, using proxy measurements of tracer properties to infer past states of ocean circulation. But characterizing that geometry rigorously, rather than by eye, turns out to be a surprisingly open problem.
 
@@ -23,3 +23,18 @@ Working with gridded tracer data from the World Ocean Atlas, I apply unsupervise
 ### Proof of Concept
 
 Varying the number of clusters, the degree of fuzziness, and the set of tracers included reveals that watermass descriptions are both discrete and continuous. Different parameter configurations capture different features, and no single configuration is obviously correct. PFCM tends to resolve synoptic-scale patterns while FCM preserves finer structure that PFCM absorbs into its typicality weighting. A sensitivity analysis — perturbing each variable within its interquartile range and tracking how cluster assignments change — quantifies which descriptions are robust and which are contingent on the precise values of the underlying data. Used together, the two approaches offer complementary views of watermass geometry, with particular value in data-sparse or uncertain settings where over-simplification is a real risk.
+
+### References {#wmg_tracers-ref}
+
+- **2023**. Landers, J.P., Emile-Geay, J. & Khider, D.. "Water mass classification by clustering passive tracer distributions - a first foray". AGU Fall Meeting 2023.
+- **2011**. Landers, J.P., Hartman, A.E., Goldstein, S.L., Anderson, R.F., Khatiwala, S.P. & Gersonde,R.. "Toward a better understanding of Nd isotopes in the North Pacific: observations and modeling of Nd in the North Pacific basin". 3rd GEOTRACES Data-Model Synergy Workshop. Barcelona, Spain.
+
+## Radiocarbon {#c14}
+
+### References {#c14-ref}
+
+- **2021**. Guilderson, T.P., Allen, K.A., Landers, J.P., Ettwein, V.J. & Cook, M.S.. "Can We Better Constrain the Timing of GNAIW/UNADW Variability in the Western Equatorial Atlantic and Its Relationship to Climate Change During the Last Deglaciation?". Paleoceanography and Paleoclimatology.
+
+#### Posters
+- **2019**. Guilderson, T.P., Allen, K.A., Cook, M.S., Ettwein, V.L., & Landers, J.P.. "Can we better constrain the timing of GNAIW variability in the Western Equatorial Atlantic and its relationship to high North Atlantic climate during the last deglaciation?" (PP13B-1430). AGU Fall Meeting 2019. 
+- **2010**. Landers, J.P., Cook, M.S., Sikes, E.L., & Guilderson, T.P.. "Reconstruction of radiocarbon of intermediate water from the SW Pacific during the last deglaciation" (PA25B-16)., Ocean Sciences Meeting 2010.

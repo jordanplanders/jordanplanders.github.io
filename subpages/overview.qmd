@@ -1,5 +1,4 @@
 
-:::
 
 ::: {.row data-aos="fade-up"}
 ::: {.col-lg-12 .d-flex .justify-content-center}
@@ -17,21 +16,23 @@
 ::: {.row .portfolio-container data-aos="fade-up" data-aos-delay="100"}
 
 ::: {.col-lg-3 .col-md-6 .portfolio-item .filter-paleoclimate .filter-all}
+
 ::: {.portfolio-wrap data-filter-trigger=".filter-paleoclimate"}
 
-![Paleoclimate focus](assets/img/portfolio/science_1.png){.img-fluid}
+![Paleoclimate](assets/img/portfolio/science_1.png){.img-fluid}
 
 ::: {.portfolio-links}
 [+](assets/img/portfolio/science_1.png){data-gallery="overviewGallery" .portfolio-lightbox title="Paleoclimate research overview"}
 [link](/science/nonlin_causality.html){title="Science"}
 :::
 :::
+
 :::
 
 ::: {.col-lg-3 .col-md-6 .portfolio-item .filter-openedu .filter-all}
 ::: {.portfolio-wrap data-filter-trigger=".filter-openedu"}
 
-![Open science and education](assets/img/portfolio/opensource_1.png){.img-fluid}
+![Open Science & Education](assets/img/portfolio/opensource_1.png){.img-fluid}
 
 ::: {.portfolio-links}
 [+](assets/img/portfolio/opensource_1.png){data-gallery="overviewGallery" .portfolio-lightbox title="Open science and education overview"}
@@ -43,7 +44,7 @@
 ::: {.col-lg-3 .col-md-6 .portfolio-item .filter-software .filter-all}
 ::: {.portfolio-wrap data-filter-trigger=".filter-software"}
 
-![Software projects](assets/img/portfolio/software_pointer.png){.img-fluid}
+![Software](assets/img/portfolio/software_pointer.png){.img-fluid}
 
 ::: {.portfolio-links}
 [+](assets/img/portfolio/software_pointer.png){data-gallery="overviewGallery" .portfolio-lightbox title="Software overview"}
@@ -55,7 +56,7 @@
 ::: {.col-lg-3 .col-md-6 .portfolio-item .filter-etc .filter-all}
 ::: {.portfolio-wrap data-filter-trigger=".filter-etc"}
 
-![Etc.](assets/img/portfolio/etc_duck.png){.img-fluid}
+![Other Projects](assets/img/portfolio/etc_duck.png){.img-fluid}
 
 ::: {.portfolio-links}
 [+](assets/img/portfolio/etc_duck.png){data-gallery="overviewGallery" .portfolio-lightbox title="Etc."}
@@ -65,56 +66,54 @@
 :::
 
 ::: {.col-lg-12 .portfolio-item .filter-all}
-- **Paleoclimate:** nonlinear dynamics, proxy-data synthesis, and causal analyses of Holocene climate variability.
-- **Open Science & Edu:** transparent workflows, teaching, and community-first scientific communication.
-- **Software:** open-source scientific Python tools for paleoclimate analysis and reproducible research.
-- **Etc.:**
+**Paleoclimate:** nonlinear dynamics, proxy-data synthesis, and causal analyses of Holocene climate variability.
+
+- **2026**. Landers, J.P., Emile-Geay, J., James, A.K., Munch, S.B., Bard, E., & Khider, D.. "A causal examination of the solar influence on Holocene climate". Geophy. Res. Let. Accepted.
+
+**Open Science & Edu:** transparent workflows, teaching, and community-first scientific communication.
+
+**Software:** open-source scientific Python tools for paleoclimate analysis and reproducible research.
+
+- **2022**. Khider, D., Emile-Geay, J., Zhu, F., James, A., Landers, J.P., Ratnakar, V. & Gil, Y.. "Pyleoclim: Paleoclimate Timeseries Analysis and Visualization With Python". Paleoceanography and Paleoclimatology.
+
+**Etc.:**
+
+- **2021**. Guilderson, T.P., Allen, K.A., Landers, J.P., Ettwein, V.J. & Cook, M.S.. "Can We Better Constrain the Timing of GNAIW/UNADW Variability in the Western Equatorial Atlantic and Its Relationship to Climate Change During the Last Deglaciation?". Paleoceanography and Paleoclimatology.
 :::
 
 ::: {.col-lg-8 .col-md-6 .portfolio-item .filter-paleoclimate}
-##### [Paleoclimate](../science/nonlin_causality.qmd)
-###### [Publications](../pres_pub.qmd) 
+##### [Nonlinear Causality in Paleoclimate](/science/nonlin_causality.html)
+[Blurb]
 
-- **2025**. Landers, J.P., Emile-Geay, J., James, A.K., Munch, S.B., Bard, E., & Khider, D.. "A causal examination of the solar influence on Holocene climate". Geophy. Res. Let. Accepted.
-- **2021**. Guilderson, T.P., Allen, K.A., Landers, J.P., Ettwein, V.J. & Cook, M.S.. "Can We Better Constrain the Timing of GNAIW/UNADW Variability in the Western Equatorial Atlantic and Its Relationship to Climate Change During the Last Deglaciation?". Paleoceanography and Paleoclimatology.
+- **2026**. Landers, J.P., Emile-Geay, J., James, A.K., Munch, S.B., Bard, E., & Khider, D.. "A causal examination of the solar influence on Holocene climate". Geophy. Res. Let. Accepted.
 
-###### [Conference Talks & Posters ](../pres_pub.qmd)
-
-- **2025**. Landers, J.P., Emile-Geay, J., James, A.K., Munch, S.B., Bard, E., & Khider, D. "Detecting Nonlinear Solar--Climate Linkages over the Holocene with Convergent Cross-Mapping". AGU Fall Meeting 2025. [link](https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/PP11A-03).
-- **2025**. Landers, J.P., Emile-Geay, J., James, A.K., Munch, S.B., Bard, E. & Khider, D.. "Did the Sun influence Holocene climate?". 15th International Conference on Paleoceanography (ICP15). Bengaluru, India.
-- **2019**. Guilderson, T.P., Allen, K.A., Cook, M.S., Ettwein, V.L., & Landers, J.P.. "Can we better constrain the timing of GNAIW variability in the Western Equatorial Atlantic and its relationship to high North Atlantic climate during the last deglaciation?" (PP13B-1430). AGU Fall Meeting 2019. 
-- **2010**. Landers, J.P., Cook, M.S., Sikes, E.L., & Guilderson, T.P.. "Reconstruction of radiocarbon of intermediate water from the SW Pacific during the last deglaciation" (PA25B-16)., Ocean Sciences Meeting 2010.
+[Conference Talks & Posters](/science/nonlin_causality.html#holocene_ccm-ref)
 
 :::
 
 ::: {.col-lg-8 .col-md-6 .portfolio-item .filter-openedu}
 
-#### PaleoBooks
+##### [PaleoBooks](/openscience_edu.html#paleobooks)
 
+[PaleoBook Gallery](https://linked.earth/PaleoBooks/)
 
-##### Posters
+[Blurb]
 
-- **2023**. Khider, D., Ratnakar, V., Emile-Geay, J., Zhu, F., James, A.K., Landers, J.P., Gil, Y., Osorio, M., Vargas, H. & McKay, N.. "PaleoCube: Enabling cloud-based paleoclimatology". AGU Fall Meeting 2023.
-- **2023**. Landers, J.P., Emile-Geay, J. & Khider, D.. "PaleoBooks: A Library of JupyterBooks for Paleoclimate Research". Building upon the EarthCube Community. Information Sciences Institute, Marina del Rey, CA.
-
-##### Presentations
-
-- **2023**. Instructor, Bring Your Own Data (BYOD) Workshop (USC/ISI)
-
+[Conference talks & Posters](/openscience_edu.html#paleobooks-ref)
 
 :::
 
 ::: {.col-lg-8 .col-md-6 .portfolio-item .filter-software}
 
-<!-- [Software Development](./software.qmd) with packages and tools for analysis, visualization, and reproducible workflows. -->
-
+###### [Pyleoclim](/software.html#pyleoclim)
 Developer, Pyleoclim (2022–present)
 
 - **2022**. Khider, D., Emile-Geay, J., Zhu, F., James, A., Landers, J.P., Ratnakar, V. & Gil, Y.. "Pyleoclim: Paleoclimate Timeseries Analysis and Visualization With Python". Paleoceanography and Paleoclimatology.
 
-
+###### [Climate Critters](/software.html#climatecrittes)
 Developer, ClimateCritters (2023–present)
 
+###### [Cedarkit](/software.html#cedarkit)
 Developer, CedarKit (2025–present)
 
 :::
@@ -122,9 +121,28 @@ Developer, CedarKit (2025–present)
 
 ::: {.col-lg-8 .col-md-6 .portfolio-item .filter-etc}
 
-- **2023**. Landers, J.P., Emile-Geay, J. & Khider, D.. "Water mass classification by clustering passive tracer distributions - a first foray". AGU Fall Meeting 2023.
-- **2011**. Landers, J.P., Hartman, A.E., Goldstein, S.L., Anderson, R.F., Khatiwala, S.P. & Gersonde,R.. "Toward a better understanding of Nd isotopes in the North Pacific: observations and modeling of Nd in the North Pacific basin". 3rd GEOTRACES Data-Model Synergy Workshop. Barcelona, Spain.
-- **2010**. Landers, J.P., Terenzi, F. & Khatiwala, S.P.. "Transient response of the CO2 airborne fraction to fluctuations in emissions: the role of climate-carbon feedbacks versus emissions growth rate". AGU Fall Meeting 2010.
+##### [Tracers & Watermass Geometry](/science/etc.html#wmg_tracers)
+
+[Blurb]
+
+[Conference talks & Posters](/science/etc.html#wmg_tracers-ref)
+
+##### [C14](/science/etc.html#c14-ref)
+
+[Blurb]
+
+- **2021**. Guilderson, T.P., Allen, K.A., Landers, J.P., Ettwein, V.J. & Cook, M.S.. "Can We Better Constrain the Timing of GNAIW/UNADW Variability in the Western Equatorial Atlantic and Its Relationship to Climate Change During the Last Deglaciation?". Paleoceanography and Paleoclimatology.
+
+[Conference talks & Posters](/science/etc.html#c14-ref)
+
+
+
+
+
+##### Carbon Cycle
+
+
 
 :::
 :::
+

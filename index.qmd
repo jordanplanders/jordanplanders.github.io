@@ -102,14 +102,25 @@ I use Convergent Cross Mapping (CCM) to approach these questions more carefully.
 ::: {#overview .portfolio .section-bg}
 ::: {.section-title}
 ## Overview {#overview-section}
+:::
 {{< include subpages/overview.qmd >}}
 :::
 :::
 
+
+::: {.container}
+
+::: {#contact .contact}
+::: {.section-title}
+## Get in touch! {#contact-section}
+
+Think there might be an idea we could collaborate on? Get in touch!
+
+:::
+:::
+:::
 <!-- ::: {#teaching .teaching}
 ::: {.section-title}
-
-
 ## Teaching
 ### USC
   - "2024 Teaching Assistant, GEOL351: Climate Dynamics"
