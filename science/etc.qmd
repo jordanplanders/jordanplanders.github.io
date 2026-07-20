@@ -2,15 +2,13 @@
 title: Etc.
 format:
   html:
-    sidebar: home_nav
+    sidebar: false
+    include-before-body: ../_includes/before-body-inner.html
     execute:
       echo: false
     toc: true
     toc-location: right
-    theme: cosmo
-
 ---
-
 
 ## Watermass Geometry - Classification by Tracer Distributions {#wmg_tracers}
 
@@ -26,15 +24,22 @@ Varying the number of clusters, the degree of fuzziness, and the set of tracers 
 
 ### References {#wmg_tracers-ref}
 
+::: {.citation-list}
 - **2023**. Landers, J.P., Emile-Geay, J. & Khider, D.. "Water mass classification by clustering passive tracer distributions - a first foray". AGU Fall Meeting 2023.
 - **2011**. Landers, J.P., Hartman, A.E., Goldstein, S.L., Anderson, R.F., Khatiwala, S.P. & Gersonde,R.. "Toward a better understanding of Nd isotopes in the North Pacific: observations and modeling of Nd in the North Pacific basin". 3rd GEOTRACES Data-Model Synergy Workshop. Barcelona, Spain.
+:::
 
 ## Radiocarbon {#c14}
 
 ### References {#c14-ref}
 
+::: {.citation-list}
 - **2021**. Guilderson, T.P., Allen, K.A., Landers, J.P., Ettwein, V.J. & Cook, M.S.. "Can We Better Constrain the Timing of GNAIW/UNADW Variability in the Western Equatorial Atlantic and Its Relationship to Climate Change During the Last Deglaciation?". Paleoceanography and Paleoclimatology.
+:::
 
 #### Posters
-- **2019**. Guilderson, T.P., Allen, K.A., Cook, M.S., Ettwein, V.L., & Landers, J.P.. "Can we better constrain the timing of GNAIW variability in the Western Equatorial Atlantic and its relationship to high North Atlantic climate during the last deglaciation?" (PP13B-1430). AGU Fall Meeting 2019. 
+
+::: {.citation-list}
+- **2019**. Guilderson, T.P., Allen, K.A., Cook, M.S., Ettwein, V.L., & Landers, J.P.. "Can we better constrain the timing of GNAIW variability in the Western Equatorial Atlantic and its relationship to high North Atlantic climate during the last deglaciation?" (PP13B-1430). AGU Fall Meeting 2019.
 - **2010**. Landers, J.P., Cook, M.S., Sikes, E.L., & Guilderson, T.P.. "Reconstruction of radiocarbon of intermediate water from the SW Pacific during the last deglaciation" (PA25B-16)., Ocean Sciences Meeting 2010.
+:::

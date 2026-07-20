@@ -4,10 +4,10 @@
 ::: {.col-lg-12 .d-flex .justify-content-center}
 <ul id="portfolio-flters" class="portfolio-filters">
   <li data-filter=".filter-all" class="filter-active">All</li>
-  <li data-filter=".filter-paleoclimate">Paleoclimate</li>
+  <li data-filter=".filter-paleoclimate">Paleoclimate Causality</li>
   <li data-filter=".filter-openedu">Open Science &amp; Edu</li>
   <li data-filter=".filter-software">Software</li>
-  <li data-filter=".filter-etc">Etc.</li>
+  <li data-filter=".filter-etc">Extra Science</li>
 
 </ul>
 :::
@@ -19,10 +19,10 @@
 
 ::: {.portfolio-wrap data-filter-trigger=".filter-paleoclimate"}
 
-![Paleoclimate](assets/img/portfolio/science_1.png){.img-fluid}
+![Paleoclimate Causality](/assets/img/portfolio/science_1.png){.img-fluid}
 
 ::: {.portfolio-links}
-[+](assets/img/portfolio/science_1.png){data-gallery="overviewGallery" .portfolio-lightbox title="Paleoclimate research overview"}
+[+](assets/img/portfolio/science_1.png){data-gallery="overviewGallery" .portfolio-lightbox title="Nonlinear Causality in Paleoclimate"}
 [link](/science/nonlin_causality.html){title="Science"}
 :::
 :::
@@ -32,10 +32,10 @@
 ::: {.col-lg-3 .col-md-6 .portfolio-item .filter-openedu .filter-all}
 ::: {.portfolio-wrap data-filter-trigger=".filter-openedu"}
 
-![Open Science & Education](assets/img/portfolio/opensource_1.png){.img-fluid}
+![Open Science & Education](/assets/img/portfolio/opensource_1.png){.img-fluid}
 
 ::: {.portfolio-links}
-[+](assets/img/portfolio/opensource_1.png){data-gallery="overviewGallery" .portfolio-lightbox title="Open science and education overview"}
+[+](assets/img/portfolio/opensource_1.png){data-gallery="overviewGallery" .portfolio-lightbox title="Open science and education"}
 [link](/openscience_edu.html){title="Open Science"}
 :::
 :::
@@ -44,10 +44,10 @@
 ::: {.col-lg-3 .col-md-6 .portfolio-item .filter-software .filter-all}
 ::: {.portfolio-wrap data-filter-trigger=".filter-software"}
 
-![Software](assets/img/portfolio/software_pointer.png){.img-fluid}
+![Software](/assets/img/portfolio/software_pointer.png){.img-fluid}
 
 ::: {.portfolio-links}
-[+](assets/img/portfolio/software_pointer.png){data-gallery="overviewGallery" .portfolio-lightbox title="Software overview"}
+[+](assets/img/portfolio/software_pointer.png){data-gallery="overviewGallery" .portfolio-lightbox title="Software"}
 [link](/software.html){title="Software"}
 :::
 :::
@@ -56,36 +56,44 @@
 ::: {.col-lg-3 .col-md-6 .portfolio-item .filter-etc .filter-all}
 ::: {.portfolio-wrap data-filter-trigger=".filter-etc"}
 
-![Other Projects](assets/img/portfolio/etc_duck.png){.img-fluid}
+![Extra Science](/assets/img/portfolio/etc_duck.png){.img-fluid}
 
 ::: {.portfolio-links}
-[+](assets/img/portfolio/etc_duck.png){data-gallery="overviewGallery" .portfolio-lightbox title="Etc."}
+[+](assets/img/portfolio/etc_duck.png){data-gallery="overviewGallery" .portfolio-lightbox title="Extra Science"}
 [link](/misc.html){title="Grab bag"}
 :::
 :::
 :::
 
 ::: {.col-lg-12 .portfolio-item .filter-all}
-**Paleoclimate:** nonlinear dynamics, proxy-data synthesis, and causal analyses of Holocene climate variability.
+**Nonlinear Causality in Paleoclimate:** nonlinear dynamics, proxy-data synthesis, and causal analyses of Holocene climate variability.
 
+::: {.citation-list}
 - **2026**. Landers, J.P., Emile-Geay, J., James, A.K., Munch, S.B., Bard, E., & Khider, D.. "A causal examination of the solar influence on Holocene climate". Geophy. Res. Let. Accepted.
+:::
 
 **Open Science & Edu:** transparent workflows, teaching, and community-first scientific communication.
 
 **Software:** open-source scientific Python tools for paleoclimate analysis and reproducible research.
 
+::: {.citation-list}
 - **2022**. Khider, D., Emile-Geay, J., Zhu, F., James, A., Landers, J.P., Ratnakar, V. & Gil, Y.. "Pyleoclim: Paleoclimate Timeseries Analysis and Visualization With Python". Paleoceanography and Paleoclimatology.
+:::
 
-**Etc.:**
+**Extra Science:**
 
+::: {.citation-list}
 - **2021**. Guilderson, T.P., Allen, K.A., Landers, J.P., Ettwein, V.J. & Cook, M.S.. "Can We Better Constrain the Timing of GNAIW/UNADW Variability in the Western Equatorial Atlantic and Its Relationship to Climate Change During the Last Deglaciation?". Paleoceanography and Paleoclimatology.
+:::
 :::
 
 ::: {.col-lg-8 .col-md-6 .portfolio-item .filter-paleoclimate}
 ##### [Nonlinear Causality in Paleoclimate](/science/nonlin_causality.html)
-[Blurb]
+In nonlinear systems, such as Earth’s climate, that evolve under the influence of internal states, feedback mechanisms, and external drivers, characterizing causality is no simple task. I use Convergent Cross-Mapping to test for genuine causal coupling in Paleoclimate contexts where correlation alone can be misleading or even absent between truly linked variables.
 
+::: {.citation-list}
 - **2026**. Landers, J.P., Emile-Geay, J., James, A.K., Munch, S.B., Bard, E., & Khider, D.. "A causal examination of the solar influence on Holocene climate". Geophy. Res. Let. Accepted.
+:::
 
 [Conference Talks & Posters](/science/nonlin_causality.html#holocene_ccm-ref)
 
@@ -97,7 +105,7 @@
 
 [PaleoBook Gallery](https://linked.earth/PaleoBooks/)
 
-[Blurb]
+Paleoclimate research is interdisciplinary and messy, and the reasoning behind an analysis — the preprocessing choices, the tradeoffs — rarely makes it into a paper. PaleoBooks is a community-built gallery of notebooks and tutorials that document that reasoning openly, making good analysis practices as easy to find and reuse as the results themselves.
 
 [Conference talks & Posters](/openscience_edu.html#paleobooks-ref)
 
@@ -108,7 +116,9 @@
 ###### [Pyleoclim](/software.html#pyleoclim)
 Developer, Pyleoclim (2022–present)
 
+::: {.citation-list}
 - **2022**. Khider, D., Emile-Geay, J., Zhu, F., James, A., Landers, J.P., Ratnakar, V. & Gil, Y.. "Pyleoclim: Paleoclimate Timeseries Analysis and Visualization With Python". Paleoceanography and Paleoclimatology.
+:::
 
 ###### [Climate Critters](/software.html#climatecrittes)
 Developer, ClimateCritters (2023–present)
@@ -123,15 +133,15 @@ Developer, CedarKit (2025–present)
 
 ##### [Tracers & Watermass Geometry](/science/etc.html#wmg_tracers)
 
-[Blurb]
+Water masses leave a signature in how ocean tracers like temperature and salinity are distributed, but describing that structure rigorously is harder than eyeballing it. I am interested in applying clustering methods to do this reproducibly and interpretting how choice of algorithm and feature set affects patterns in watermass geometry.
 
 [Conference talks & Posters](/science/etc.html#wmg_tracers-ref)
 
 ##### [C14](/science/etc.html#c14-ref)
 
-[Blurb]
-
+::: {.citation-list}
 - **2021**. Guilderson, T.P., Allen, K.A., Landers, J.P., Ettwein, V.J. & Cook, M.S.. "Can We Better Constrain the Timing of GNAIW/UNADW Variability in the Western Equatorial Atlantic and Its Relationship to Climate Change During the Last Deglaciation?". Paleoceanography and Paleoclimatology.
+:::
 
 [Conference talks & Posters](/science/etc.html#c14-ref)
 

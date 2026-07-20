@@ -2,33 +2,43 @@
 title: Presentations & Publications
 format:
   html:
-    sidebar: home_nav
+    sidebar: false
+    include-before-body: _includes/before-body-inner.html
     execute:
       echo: false
     toc: true
     toc-location: right
-    theme: cosmo
 ---
 
 ## Articles
 
+::: {.citation-list}
 {{< include subpages/articles.qmd >}}
+:::
 
 ## Presentations
 ### Conference Talks
 
+::: {.citation-list}
 {{< include subpages/conference_talks.qmd >}}
+:::
 
 ### Seminars
 
+::: {.citation-list}
 {{< include subpages/seminars.qmd >}}
+:::
 
 ### Posters
 
+::: {.citation-list}
 {{< include subpages/posters.qmd >}}
+:::
 
 
 ## Open Science
 ### Educational Materials
 
+::: {.citation-list}
 {{< include subpages/educational_materials.qmd >}}
+:::

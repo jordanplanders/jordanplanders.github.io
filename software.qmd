@@ -2,17 +2,19 @@
 title: Software
 format:
   html:
-    sidebar: home_nav
+    sidebar: false
+    include-before-body: _includes/before-body-inner.html
     execute:
       echo: false
     toc: true
     toc-location: right
-    theme: cosmo
 ---
 
-## Convergent Cross-Mapping 
+## Convergent Cross-Mapping
 
 ### CedarKit {#cedarkit}
+[website]()
+[Github](https://github.com/jordanplanders/cedar_util)
 
 CedarKit is a toolkit to support Convergent Cross Mapping (CCM) and Empirical Dynamic Modeling (EDM) analysis, built on top of pyEDM. It handles the parts around the actual causal-inference calculations: setting up a project, running and organizing the computations, processing the results, and visualizing them.
 
@@ -26,14 +28,16 @@ GPL-3.0 licensed.
 
 ### PapertrailCM (coming soon)
 
-
 ## Linked Earth
 
-### [Pyleoclim](https://pyleoclim-util.readthedocs.io/en/latest/) {#pyleoclim}
+### Pyleoclim {#pyleoclim}
+[Documentation](https://pyleoclim-util.readthedocs.io/en/latest/)
+[Github](https://github.com/LinkedEarth/Pyleoclim_util)
 
 ### Climate Critters {#climatecritters}
+[overview & documentation](http://linked.earth/ClimateCritters/stable/)
+[Github](https://github.com/LinkedEarth/ClimateCritters)
 
 ClimateCritters is a Python package that gathers minimal, well-understood models of climate dynamics into one unified, object-oriented interface — an attempt to bring the "model organism" approach from biology to climate science. Rather than building ever-larger Earth System Models, ClimateCritters focuses on small, fully-explorable systems (like Lorenz's 3-equation convection model, which birthed chaos theory) that still exhibit the hallmarks of complex behavior: chaos, multiple equilibria, tipping points, and intermittency.
 
 ## Misc Tools
-

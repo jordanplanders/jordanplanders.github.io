@@ -1,8 +1,10 @@
 ---
 title: PaleoBooks
-toc: true
-sidebar: true
-theme: cosmo 
+format:
+  html:
+    sidebar: false
+    include-before-body: ../_includes/before-body-inner.html
+    toc: true
 ---
 
 

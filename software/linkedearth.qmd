@@ -1,0 +1,24 @@
+---
+title: Linked Earth
+format:
+  html:
+    sidebar: false
+    include-before-body: ../_includes/before-body-inner.html
+    execute:
+      echo: false
+    toc: true
+    toc-location: right
+---
+
+
+### Pyleoclim {#pyleoclim}
+[Documentation](https://pyleoclim-util.readthedocs.io/en/latest/)
+[Github](https://github.com/LinkedEarth/Pyleoclim_util)
+
+### Climate Critters {#climatecritters}
+[overview & documentation](http://linked.earth/ClimateCritters/stable/)
+[Github](https://github.com/LinkedEarth/ClimateCritters)
+
+ClimateCritters is a Python package that gathers minimal, well-understood models of climate dynamics into one unified, object-oriented interface — an attempt to bring the "model organism" approach from biology to climate science. Rather than building ever-larger Earth System Models, ClimateCritters focuses on small, fully-explorable systems (like Lorenz's 3-equation convection model, which birthed chaos theory) that still exhibit the hallmarks of complex behavior: chaos, multiple equilibria, tipping points, and intermittency.
+
+### Misc Tools

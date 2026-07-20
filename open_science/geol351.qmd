@@ -1,8 +1,10 @@
 ---
 title: GEOL 351 - Climate Dynamics
-toc: true
-sidebar: true
-theme: cosmo 
+format:
+  html:
+    sidebar: false
+    include-before-body: ../_includes/before-body-inner.html
+    toc: true
 ---
 
 

@@ -1,0 +1,65 @@
+---
+title: Favorite Figures
+format:
+  html:
+    sidebar: false
+    include-before-body: _includes/before-body-inner.html
+    execute:
+      echo: false
+    toc: true
+    toc-location: right
+---
+
+A running gallery of figures I keep coming back to — some for the result, some for how well they ended up communicating something gnarly. Click any thumbnail for the full-size version.
+
+## Method {#fig-method-ccm}
+
+::: {.row .favorite-figures-banner}
+
+::: {.col-lg-3 .col-md-6 .favorite-figure}
+[![](/favorite_figures/method/img/thumbs/FigS_embedding.jpg){.img-fluid}](/favorite_figures/method/img/display/FigS_embedding.jpg){.portfolio-lightbox data-gallery="favoriteFiguresGallery" title="State-space embedding windows"}
+
+How embedding-dimension (E) and time-delay (τ) choices carve the same temperature record into overlapping snippets for state-space reconstruction.
+
+[PDF](/favorite_figures/method/pdf/FigS_embedding.pdf){.figure-pdf-link}
+:::
+
+::: {.col-lg-3 .col-md-6 .favorite-figure}
+[![](/favorite_figures/method/img/thumbs/stepwise_CCM_workflow_lag.jpg){.img-fluid}](/favorite_figures/method/img/display/stepwise_CCM_workflow_lag.jpg){.portfolio-lightbox data-gallery="favoriteFiguresGallery" title="CCM workflow, step by step"}
+
+The full Convergent Cross-Mapping workflow: embed, sample, find neighbors, predict, test against surrogates across library sizes, and choose the optimal alignment.
+
+[PDF](/favorite_figures/method/pdf/stepwise_CCM_workflow_lag.pdf){.figure-pdf-link}
+:::
+
+:::
+
+## Holocene CCM {#fig-holocene-ccm}
+
+::: {.row .favorite-figures-banner}
+
+::: {.col-lg-3 .col-md-6 .favorite-figure}
+[![](/favorite_figures/holocene_ccm/img/thumbs/Fig1_raw_ts_psd.jpg){.img-fluid}](/favorite_figures/holocene_ccm/img/display/Fig1_raw_ts_psd.jpg){.portfolio-lightbox data-gallery="favoriteFiguresGallery" title="Raw time series & spectral significance"}
+
+Reconstructed GMST and TSI records (8000 BP–present), with spectral significance testing against AR(1) surrogates highlighting the Hallstatt, de Vries, and Gleissberg solar cycles.
+
+[PDF](/favorite_figures/holocene_ccm/pdf/Fig1_raw_ts_psd.pdf){.figure-pdf-link}
+:::
+
+::: {.col-lg-3 .col-md-6 .favorite-figure}
+[![](/favorite_figures/holocene_ccm/img/thumbs/Fig3_untreated_results_Grid_2x2.jpg){.img-fluid}](/favorite_figures/holocene_ccm/img/display/Fig3_untreated_results_Grid_2x2.jpg){.portfolio-lightbox data-gallery="favoriteFiguresGallery" title="CCM parameter-sweep results grid"}
+
+CCM skill (Δρ) across embedding-dimension and time-delay choices, for each temperature/TSI reconstruction pairing, with surrogate-exceedance markers overlaid.
+
+[PDF](/favorite_figures/holocene_ccm/pdf/Fig3_untreated_results_Grid_2x2.pdf){.figure-pdf-link}
+:::
+
+::: {.col-lg-3 .col-md-6 .favorite-figure}
+[![](/favorite_figures/holocene_ccm/img/thumbs/FigS5_real_ts_psds.jpg){.img-fluid}](/favorite_figures/holocene_ccm/img/display/FigS5_real_ts_psds.jpg){.portfolio-lightbox data-gallery="favoriteFiguresGallery" title="Real time series PSDs (supplementary)"}
+
+Original-treated timeseries pairs (1ky high pass filter, linear detrending) and accompanying power-spectral-density panels for the real (non-surrogate) time series used across the analysis.
+
+[PDF](/favorite_figures/holocene_ccm/pdf/FigS5_real_ts_psds.pdf){.figure-pdf-link}
+:::
+
+:::

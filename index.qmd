@@ -15,9 +15,7 @@ format:
 
 ::: {.row .align-items-start}
 ::: {.col-lg-4 .mb-4}
-<div style="border: 2px dashed #b8c2d9; border-radius: 12px; min-height: 280px; display: flex; align-items: center; justify-content: center; color: #5d6b88; font-weight: 600; background: rgba(20, 157, 221, 0.06);">
-  Photo Placeholder
-</div>
+![](assets/img/quals_huzzah.jpeg)
 :::
 
 ::: {.col-lg-8}
@@ -41,7 +39,7 @@ I use Convergent Cross Mapping (CCM) to approach these questions more carefully.
 ::: {#resume .resume}
 ::: {.section-title}
 ## Resume 
-[(PDF)](../assets/file/jlanders_CV.pdf)
+[(PDF)](/assets/file/jlanders_CV.pdf)
 
 ::: {.row}
 
