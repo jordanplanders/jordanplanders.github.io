@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Jordan Landers</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+
+
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-html-734cb40618f438257b19a1e532635a32.min.css" rel="stylesheet" append-hash="true" data-mode="light">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Favicons -->
+<link href="./assets/img/favicon.png" rel="icon">
+<link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Poppins" rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+<link href="./assets/vendor/aos/aos.css" rel="stylesheet">
+<link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="./assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="./assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="./assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+<link href="./assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+<!-- Template Main CSS File -->
+<link href="./assets/css/style.css" rel="stylesheet">
+<link href="./assets/css/quarto-overrides.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+<header id="header">
+<div class="d-flex flex-column">
+    <div class="profile">
+      <img src="./assets/img/profile-img-nav.png" alt="" class="img-fluid rounded-circle">
+      <h1 class="text-light"><a href="./index.html">Jordan Landers</a></h1>
+      <div class="social-links mt-3 text-center">
+        <a href="https://github.com/jordanplanders" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://bsky.app/profile/jordanplanders.bsky.social" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://scholar.google.com/citations?hl=en&amp;user=1PVSSxwAAAAJ" class="google"><i class="bx bxl-google"></i></a>
+        <a href="https://orcid.org/0000-0001-9772-7617" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+
+    <nav id="navbar" class="nav-menu navbar">
+    <!-- NAV GENERATED START -->
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#overview" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Overview</span></a></li>
+      </ul>
+      <ul>
+        <li class="nav-dropdown">
+          <details>
+            <summary><i class="bx bx-book-reader"></i> <span>Science</span></summary>
+            <ul>
+              <li><a href="./science/nonlin_causality.html" class="nav-link"><i class="bx bx-person-raised-hand"></i> <span>Nonlinear Causality</span></a></li>
+              <li><a href="./science/etc.html" class="nav-link"><i class="bx bx-person-raised-hand"></i> <span>Everything Else</span></a></li>
+            </ul>
+          </details>
+        </li>
+        <li class="nav-dropdown">
+          <details>
+            <summary><i class="bx bx-terminal"></i> <span>Software</span></summary>
+            <ul>
+              <li><a href="./software/ccm.html" class="nav-link"><i class="bx bx-link"></i> <span>CCM</span></a></li>
+              <li><a href="./software/linkedearth.html" class="nav-link"><i class="bx bx-link"></i> <span>Linked Earth</span></a></li>
+            </ul>
+          </details>
+        </li>
+        <li><a href="./openscience_edu.html" class="nav-link"><i class="bx bx-news"></i> <span>Open Science Education</span></a></li>
+      </ul>
+      <ul>
+        <li><a href="./pres_pub.html" class="nav-link"><i class="bx bx-book-content"></i> <span>Presentations &amp; Publications</span></a></li>
+        <li><a href="./favorite_figures.html" class="nav-link"><i class="bx bx-images"></i> <span>Favorite Figures</span></a></li>
+      </ul>
+    <!-- NAV GENERATED END -->
+    </nav>
+  </div>
+</header>
+
+<!-- CATEGORY INTROS START -->
+<script type="application/json" id="category-intros">{"/science/nonlin_causality.html":[{"label":"Science","blurb":"Mixing data science & earth science & nonlinear dynamics since 2022!"}],"/science/etc.html":[{"label":"Science","blurb":"Mixing data science & earth science & nonlinear dynamics since 2022!"}],"/software/ccm.html":[{"label":"Software","blurb":"Open-source tools built to support open paleoclimate workflows and causal-inference/dynamical-systems research."}],"/software/linkedearth.html":[{"label":"Software","blurb":"Open-source tools built to support open paleoclimate workflows and causal-inference/dynamical-systems research."}]}</script>
+<!-- CATEGORY INTROS END -->
+
+<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+  <div class="hero-container" data-aos="fade-in">
+    <!-- <h1>Jordan Landers</h1> -->
+    <div class="hero-name">Jordan Landers</div>
+
+    <p><span class="typed" data-typed-items="Paleoclimate Researcher, Chemical Oceanographer, Data Scientist, Open Source Contributor, Scientific Python Enthusiast"></span></p>
+  </div>
+</section>
+
+<main id="main"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<div class="container">
+<div id="about" class="about">
+<section id="about" class="section-title">
+<h2 class="anchored">About</h2>
+</section>
+<div class="row align-items-start">
+<div class="col-lg-4 mb-4">
+<p><img src="assets/img/quals_huzzah.jpeg" class="img-fluid"></p>
+</div>
+<div class="col-lg-8">
+<h4 id="biography" class="anchored">Biography</h4>
+<p>I am a PhD candidate in Earth Sciences at the University of Southern California, advised by Julien Emile-Geay. My background spans mathematics, physical oceanography, and data science, with research stints at Woods Hole Oceanographic Institution and several years in industry as a data scientist before returning to graduate school. My work sits at the intersection of paleoclimate and nonlinear time series analysis, with a recurring focus on the question of whether apparent relationships in the climate record reflect genuine dynamical influence.</p>
+<div style="height: 1.5rem;">
+
+</div>
+<h4 id="research-interests" class="anchored">Research Interests</h4>
+<p>The central problem motivating my research is causality in nonlinear systems. In Earth’s climate, correlation is not only an unreliable guide to causal structure — it can be actively misleading: two causally linked variables can exhibit intervals of positive, negative, or no correlation depending on system state, while two unrelated variables can appear coherent because of a shared driver. Standard associative approaches, including spectral analysis, cannot resolve this ambiguity.</p>
+<p>I use Convergent Cross Mapping (CCM) to approach these questions more carefully. CCM tests whether the state space of one variable carries recoverable information about another — a condition that, under the theory of dynamical systems, is only satisfied in the presence of genuine coupling. My dissertation applies this framework to questions in Holocene and Pleistocene paleoclimate.</p>
+</div>
+</div>
+</div>
+<div id="resume" class="resume">
+<section id="resume" class="section-title">
+<h2 class="anchored">Resume</h2>
+<p><a href="./assets/file/jlanders_CV.pdf">(PDF)</a></p>
+<div class="row">
+<section id="education" class="resume-title col-lg-6" data-aos="fade-up">
+<h3 class="resume-title anchored">Education</h3>
+<section id="ph.d.-candidate-earth-sciences" class="resume-item">
+<h4 class="anchored">Ph.D.&nbsp;Candidate, Earth Sciences</h4>
+<h5 id="present" class="anchored"><strong>2022 – present</strong></h5>
+<p><em>University of Southern California, Los Angeles, CA</em></p>
+</section>
+<section id="ma-earth-and-environmental-science" class="resume-item">
+<h4 class="anchored">MA, Earth and Environmental Science</h4>
+<h5 id="section" class="anchored"><strong>2010 – 2013</strong></h5>
+<p><em>Columbia University, New York, NY</em></p>
+</section>
+<section id="ba-mathematics" class="resume-item">
+<h4 class="anchored">BA, Mathematics</h4>
+<h5 id="section-1" class="anchored"><strong>2004 – 2009</strong></h5>
+<p><em>Williams College, Williamstown, MA</em></p>
+</section>
+</section>
+<section id="professional-experience" class="resume-title col-lg-6" data-aos="fade-up" data-aos-delay="100">
+<h3 class="resume-title anchored">Professional Experience</h3>
+<section id="data-scientist-syntouch-inc" class="resume-item">
+<h4 class="anchored">Data Scientist, Syntouch Inc</h4>
+<h5 id="section-2" class="anchored"><strong>2020 – 2022</strong></h5>
+<p><em>Haptics consulting</em></p>
+</section>
+<section id="data-scientist-neuroscience" class="resume-item">
+<h4 class="anchored">Data Scientist, Neuroscience</h4>
+<h5 id="section-3" class="anchored"><strong>2017 – 2019</strong></h5>
+<ul>
+<li><em>NSF iCorps Entrepeneurial Lead</em></li>
+<li><em>Assessing cognitive impairment using MF-DFA</em></li>
+</ul>
+</section>
+<section id="research-assistant-woods-hole-oceanographic-institution" class="resume-item">
+<h4 class="anchored">Research Assistant, Woods Hole Oceanographic Institution</h4>
+<h5 id="section-4" class="anchored"><strong>2009 – 2010</strong></h5>
+<ul>
+<li><em>Supervisor, Delia Oppo</em></li>
+<li><em>KNR 157 + Lab work</em></li>
+</ul>
+</section>
+</section>
+</div>
+</section>
+</div>
+<div id="overview" class="portfolio section-bg">
+<section id="overview-section" class="section-title">
+<h2 class="anchored">Overview</h2>
+</section>
+<div class="row" data-aos="fade-up">
+<div class="col-lg-12 d-flex justify-content-center">
+<ul id="portfolio-flters" class="portfolio-filters">
+<li data-filter=".filter-all" class="filter-active">
+All
+</li>
+<li data-filter=".filter-paleoclimate">
+Paleoclimate Causality
+</li>
+<li data-filter=".filter-openedu">
+Open Science &amp; Edu
+</li>
+<li data-filter=".filter-software">
+Software
+</li>
+<li data-filter=".filter-etc">
+Extra Science
+</li>
+</ul>
+</div>
+</div>
+<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+<div class="col-lg-3 col-md-6 portfolio-item filter-paleoclimate filter-all">
+<div class="portfolio-wrap" data-filter-trigger=".filter-paleoclimate">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img src="./assets/img/portfolio/science_1.png" class="img-fluid"></p>
+<figcaption>Paleoclimate Causality</figcaption>
+</figure>
+</div>
+<div class="portfolio-links">
+<p><a href="assets/img/portfolio/science_1.png" class="portfolio-lightbox" data-gallery="overviewGallery" title="Nonlinear Causality in Paleoclimate">+</a> <a href="./science/nonlin_causality.html" title="Science">link</a></p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 portfolio-item filter-openedu filter-all">
+<div class="portfolio-wrap" data-filter-trigger=".filter-openedu">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img src="./assets/img/portfolio/opensource_1.png" class="img-fluid"></p>
+<figcaption>Open Science &amp; Education</figcaption>
+</figure>
+</div>
+<div class="portfolio-links">
+<p><a href="assets/img/portfolio/opensource_1.png" class="portfolio-lightbox" data-gallery="overviewGallery" title="Open science and education">+</a> <a href="./openscience_edu.html" title="Open Science">link</a></p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 portfolio-item filter-software filter-all">
+<div class="portfolio-wrap" data-filter-trigger=".filter-software">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img src="./assets/img/portfolio/software_pointer.png" class="img-fluid"></p>
+<figcaption>Software</figcaption>
+</figure>
+</div>
+<div class="portfolio-links">
+<p><a href="assets/img/portfolio/software_pointer.png" class="portfolio-lightbox" data-gallery="overviewGallery" title="Software">+</a> <a href="./software.html" title="Software">link</a></p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 portfolio-item filter-etc filter-all">
+<div class="portfolio-wrap" data-filter-trigger=".filter-etc">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img src="./assets/img/portfolio/etc_duck.png" class="img-fluid"></p>
+<figcaption>Extra Science</figcaption>
+</figure>
+</div>
+<div class="portfolio-links">
+<p><a href="assets/img/portfolio/etc_duck.png" class="portfolio-lightbox" data-gallery="overviewGallery" title="Extra Science">+</a> <a href="./misc.html" title="Grab bag">link</a></p>
+</div>
+</div>
+</div>
+<div class="col-lg-12 portfolio-item filter-all">
+<p><strong>Nonlinear Causality in Paleoclimate:</strong> nonlinear dynamics, proxy-data synthesis, and causal analyses of Holocene climate variability.</p>
+<div class="citation-list">
+<ul>
+<li><strong>2026</strong>. Landers, J.P., Emile-Geay, J., James, A.K., Munch, S.B., Bard, E., &amp; Khider, D.. “A causal examination of the solar influence on Holocene climate”. Geophy. Res. Let. Accepted.</li>
+</ul>
+</div>
+<p><strong>Open Science &amp; Edu:</strong> transparent workflows, teaching, and community-first scientific communication.</p>
+<p><strong>Software:</strong> open-source scientific Python tools for paleoclimate analysis and reproducible research.</p>
+<div class="citation-list">
+<ul>
+<li><strong>2022</strong>. Khider, D., Emile-Geay, J., Zhu, F., James, A., Landers, J.P., Ratnakar, V. &amp; Gil, Y.. “Pyleoclim: Paleoclimate Timeseries Analysis and Visualization With Python”. Paleoceanography and Paleoclimatology.</li>
+</ul>
+</div>
+<p><strong>Extra Science:</strong></p>
+<div class="citation-list">
+<ul>
+<li><strong>2021</strong>. Guilderson, T.P., Allen, K.A., Landers, J.P., Ettwein, V.J. &amp; Cook, M.S.. “Can We Better Constrain the Timing of GNAIW/UNADW Variability in the Western Equatorial Atlantic and Its Relationship to Climate Change During the Last Deglaciation?”. Paleoceanography and Paleoclimatology.</li>
+</ul>
+</div>
+</div>
+<section id="nonlinear-causality-in-paleoclimate" class="col-lg-8 col-md-6 portfolio-item filter-paleoclimate">
+<h5 class="anchored"><a href="./science/nonlin_causality.html">Nonlinear Causality in Paleoclimate</a></h5>
+<p>In nonlinear systems, such as Earth’s climate, that evolve under the influence of internal states, feedback mechanisms, and external drivers, characterizing causality is no simple task. I use Convergent Cross-Mapping to test for genuine causal coupling in Paleoclimate contexts where correlation alone can be misleading or even absent between truly linked variables.</p>
+<div class="citation-list">
+<ul>
+<li><strong>2026</strong>. Landers, J.P., Emile-Geay, J., James, A.K., Munch, S.B., Bard, E., &amp; Khider, D.. “A causal examination of the solar influence on Holocene climate”. Geophy. Res. Let. Accepted.</li>
+</ul>
+</div>
+<p><a href="./science/nonlin_causality.html#holocene_ccm-ref">Conference Talks &amp; Posters</a></p>
+</section>
+<section id="paleobooks" class="col-lg-8 col-md-6 portfolio-item filter-openedu">
+<h5 class="anchored"><a href="./openscience_edu.html#paleobooks">PaleoBooks</a></h5>
+<p><a href="https://linked.earth/PaleoBooks/">PaleoBook Gallery</a></p>
+<p>Paleoclimate research is interdisciplinary and messy, and the reasoning behind an analysis — the preprocessing choices, the tradeoffs — rarely makes it into a paper. PaleoBooks is a community-built gallery of notebooks and tutorials that document that reasoning openly, making good analysis practices as easy to find and reuse as the results themselves.</p>
+<p><a href="./openscience_edu.html#paleobooks-ref">Conference talks &amp; Posters</a></p>
+</section>
+<div class="col-lg-8 col-md-6 portfolio-item filter-software">
+<h6 id="pyleoclim" class="anchored"><a href="./software.html#pyleoclim">Pyleoclim</a></h6>
+<p>Developer, Pyleoclim (2022–present)</p>
+<div class="citation-list">
+<ul>
+<li><strong>2022</strong>. Khider, D., Emile-Geay, J., Zhu, F., James, A., Landers, J.P., Ratnakar, V. &amp; Gil, Y.. “Pyleoclim: Paleoclimate Timeseries Analysis and Visualization With Python”. Paleoceanography and Paleoclimatology.</li>
+</ul>
+</div>
+<h6 id="climate-critters" class="anchored"><a href="./software.html#climatecrittes">Climate Critters</a></h6>
+<p>Developer, ClimateCritters (2023–present)</p>
+<h6 id="cedarkit" class="anchored"><a href="./software.html#cedarkit">Cedarkit</a></h6>
+<p>Developer, CedarKit (2025–present)</p>
+</div>
+<div class="col-lg-8 col-md-6 portfolio-item filter-etc">
+<h5 id="tracers-watermass-geometry" class="anchored"><a href="./science/etc.html#wmg_tracers">Tracers &amp; Watermass Geometry</a></h5>
+<p>Water masses leave a signature in how ocean tracers like temperature and salinity are distributed, but describing that structure rigorously is harder than eyeballing it. I am interested in applying clustering methods to do this reproducibly and interpretting how choice of algorithm and feature set affects patterns in watermass geometry.</p>
+<p><a href="./science/etc.html#wmg_tracers-ref">Conference talks &amp; Posters</a></p>
+<h5 id="c14" class="anchored"><a href="./science/etc.html#c14-ref">C14</a></h5>
+<div class="citation-list">
+<ul>
+<li><strong>2021</strong>. Guilderson, T.P., Allen, K.A., Landers, J.P., Ettwein, V.J. &amp; Cook, M.S.. “Can We Better Constrain the Timing of GNAIW/UNADW Variability in the Western Equatorial Atlantic and Its Relationship to Climate Change During the Last Deglaciation?”. Paleoceanography and Paleoclimatology.</li>
+</ul>
+</div>
+<p><a href="./science/etc.html#c14-ref">Conference talks &amp; Posters</a></p>
+<h5 id="carbon-cycle" class="anchored">Carbon Cycle</h5>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div id="contact" class="contact">
+<section id="contact-section" class="section-title">
+<h2 class="anchored">Get in touch!</h2>
+<p>Think there might be an idea we could collaborate on? Get in touch!</p>
+</section>
+</div>
+</div>
+<!-- ::: {#teaching .teaching}
+::: {.section-title}
+## Teaching
+### USC
+  - "2024 Teaching Assistant, GEOL351: Climate Dynamics"
+  - "2023 Teaching Assistant, GEOL150: Climate Change"
+  - "2022 Teaching Assistant, GEOL351: Climate Dynamics"
+
+### Columbia University
+  - "2012 Teaching Assistant, Chemical Oceanography"
+  - "2010 Teaching Assistant, Atmospheric Science"
+
+### Workshops
+  - "2023 Instructor, BYOD Workshop (USC/ISI)"
+:::
+::: -->
+<!-- 
+::: {#presentations .presentations}
+::: {.section-title}
+## [Recent Presentations](./presentations.qmd)
+:::
+:::
+
+::: {#community .community}
+::: {.section-title}
+## Community Involvement
+- Contributor, Pangeo-Forge (2022–present)
+- Lead, PaleoBooks Library (2022–present)
+- Outreach contributor, Demerara Rise Cruise Blog (2010)
+:::
+:::
+
+::: {#software .software}
+::: {.section-title}
+## [Software Development](./software.qmd) 
+- Developer, Pyleoclim (2022–present)
+- Developer, PaleoBeasts (2023–present)
+- Developer, CedarKit (2025–present)
+:::
+:::
+::: -->
+
+
+</main>
+
+<!-- Reserved for copyright / contact / links later — for now this
+     just exists to give the page real bottom headroom instead of
+     ending abruptly (see #footer.content-footer in
+     quarto-overrides.css). Shared across every page, home included. -->
+<footer id="content-footer" class="content-footer"></footer>
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+  <i class="bi bi-arrow-up-short"></i>
+</a>
+
+<!-- Vendor JS Files -->
+<script src="./assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="./assets/vendor/aos/aos.js"></script>
+<script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="./assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="./assets/vendor/typed.js/typed.umd.js"></script>
+<script src="./assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="./assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="./assets/js/main.js"></script>
+
+<!-- Your extra JS, if needed -->
+<script src="./assets/js/active_portfolio.js"></script>
+<script src="./assets/js/toc-sticky.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+    tabsets.forEach(function(tabset) {
+      const tabby = new Tabby('#' + tabset.id);
+    });
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'light-border',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+
+
+
+
+</body></html>
