@@ -1,6 +1,5 @@
 /.quarto/
 **/*.quarto_ipynb
-jlanders_CV/*
 /_site/
 /.idea/
 index2.html
