@@ -1,0 +1,78 @@
+main:
+  - text: Home
+    href: "#hero"
+    icon: bx-home
+    scrollto: true
+    active: true
+  - text: About
+    href: "#about"
+    icon: bx-user
+    scrollto: true
+  - text: Resume
+    href: "#resume"
+    icon: bx-file-blank
+    scrollto: true
+  - text: Overview
+    href: "#overview"
+    icon: bx-book-content
+    scrollto: true
+
+# Each entry under "satellite" is ONE sidebar section: a divider (its
+# "label" — can be "") followed by its own list of "items", in the order
+# written here. One divider per entry — that's the whole mechanism for
+# controlling where dividers land (merge two entries into one "items"
+# list to drop the divider between them; split one entry into two to
+# add one).
+#
+# Sections themselves never collapse. An item inside a section's "items"
+# is either:
+#   1) a plain link:      {text, href, icon}
+#   2) a collapsible category: {category, icon, blurb, image, items: [...]}
+#      — rendered as a closed-by-default dropdown; add "open: true" to
+#      start it expanded. A category's own "items" can contain more
+#      nested categories, at any depth.
+#
+# "blurb" and "image" are both optional (independently — set either,
+# both, or neither). Whichever is set is shown as a little intro card
+# in the right-hand TOC panel (above "On this page") on every page
+# reached through that category — handy context when there's no
+# dedicated landing page for the category yet. "image" is a path just
+# like a link "href" (project-relative; gets normalized to root-
+# absolute automatically), and is rendered small/rounded at the top of
+# the card. A page nested under several categories gets ALL of their
+# cards, stacked outermost-first. A page not reached through any
+# blurb/image-bearing category gets no intro card.
+satellite:
+  - label: ''
+    items:
+      - category: Science
+        icon: bx-book-reader
+        blurb: "Mixing data science & earth science & nonlinear dynamics since 2022!"
+        items:
+          # - text: Publications & Presentations
+          #   href: pres_pub.html
+          - text: Nonlinear Causality
+            href: science/nonlin_causality.html
+            icon: bx-person-raised-hand
+          - text: Everything Else
+            href: science/etc.html
+            icon: bx-person-raised-hand
+      - category: Software
+        icon: bx-terminal
+        blurb: "Open-source tools built to support open paleoclimate workflows and causal-inference/dynamical-systems research."
+        items:
+          - text: CCM
+            href: software/ccm.html
+          - text: Linked Earth
+            href: software/linkedearth.html
+      - text: Open Science Education
+        href: openscience_edu.html
+        icon: bx-news
+  - label: ''
+    items:
+      - text: Presentations & Publications
+        href: pres_pub.html
+        icon: bx-book-content
+      - text: Favorite Figures
+        href: favorite_figures.html
+        icon: bx-images

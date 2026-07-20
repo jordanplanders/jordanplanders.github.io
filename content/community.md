@@ -1,0 +1,4 @@
+- Developer, Pyleoclim (2022–present)
+- Contributor, Pangeo-Forge (2022–present)
+- Lead, PaleoBooks Library (2022–present)
+- Outreach contributor, Demerara Rise Cruise Blog (2010)

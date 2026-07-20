@@ -1,0 +1,23 @@
+roles:
+  - title: Research Assistant
+    org: Woods Hole Oceanographic Institution
+    dates: 2009 - 2010
+    location: Woods Hole, MA
+    bullets:
+      - Supervisor: Delia Oppo
+      - KNR 157 + lab work
+
+  - title: Data Scientist, Neuroscience
+    org: (Your org / lab)
+    dates: 2017 - 2019
+    location: (City, State)
+    bullets:
+      - NSF iCorps EL
+      - Assessing cognitive impairment using MF-DFA
+
+  - title: Data Scientist
+    org: Syntouch Inc
+    dates: 2020 - 2022
+    location: (City, State)
+    bullets:
+      - Haptics consulting
