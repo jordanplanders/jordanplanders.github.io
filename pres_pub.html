@@ -39,9 +39,14 @@ ul.task-list li input[type="checkbox"] {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Favicons -->
-<link href="./assets/img/favicon.png" rel="icon" type="image/png" sizes="48x48">
-<link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+<!-- Favicons
+     ?v=2 cache-busts the CDN/browser favicon cache still holding the
+     old 1254x1254 file from before the resize — these URLs had been
+     live since the original Jekyll-era site, so they were long since
+     cached at every layer. Bump this if the favicon is ever replaced
+     again and doesn't seem to update. -->
+<link href="./assets/img/favicon.png?v=2" rel="icon" type="image/png" sizes="48x48">
+<link href="./assets/img/apple-touch-icon.png?v=2" rel="apple-touch-icon" sizes="180x180">
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Poppins" rel="stylesheet">
