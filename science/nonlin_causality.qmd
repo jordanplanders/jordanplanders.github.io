@@ -29,7 +29,7 @@ One challenge of this framework is that it requires evenly-spaced time series th
 ::: {.figure-banner}
 [![](../favorite_figures/holocene_ccm/img/thumbs/Fig1_raw_ts_psd.jpg){.figure-banner-img}](../favorite_figures/holocene_ccm/img/display/Fig1_raw_ts_psd.jpg){.portfolio-lightbox data-gallery="holoceneCcmGallery" title="Raw time series & spectral significance"}
 [![](../favorite_figures/holocene_ccm/img/thumbs/Fig3_untreated_results_Grid_2x2.jpg){.figure-banner-img}](../favorite_figures/holocene_ccm/img/display/Fig3_untreated_results_Grid_2x2.jpg){.portfolio-lightbox data-gallery="holoceneCcmGallery" title="CCM parameter-sweep results grid"}
-[![](../favorite_figures/holocene_ccm/img/thumbs/FigS_embedding.jpg){.figure-banner-img}](../favorite_figures/method/img/FigS_embedding.jpg){.portfolio-lightbox data-gallery="holoceneCcmGallery" title="State-space embedding windows"}
+[![](../favorite_figures/method/img/thumbs/FigS_embedding.jpg){.figure-banner-img}](../favorite_figures/method/img/display/FigS_embedding.jpg){.portfolio-lightbox data-gallery="methodGallery" title="State-space embedding windows"}
 [![](../favorite_figures/holocene_ccm/img/thumbs/FigS5_real_ts_psds.jpg){.figure-banner-img}](../favorite_figures/holocene_ccm/img/display/FigS5_real_ts_psds.jpg){.portfolio-lightbox data-gallery="holoceneCcmGallery" title="Real time series PSDs (supplementary)"}
 :::
 
