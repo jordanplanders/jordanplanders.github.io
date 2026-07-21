@@ -35,7 +35,7 @@
 ![Open Science & Education](/assets/img/portfolio/opensource_1.png){.img-fluid}
 
 ::: {.portfolio-links}
-[+](assets/img/portfolio/opensource_1.png){data-gallery="overviewGallery" .portfolio-lightbox title="Open science and education"}
+[+](/assets/img/portfolio/opensource_1.png){data-gallery="overviewGallery" .portfolio-lightbox title="Open science and education"}
 [link](/openscience_edu.html){title="Open Science"}
 :::
 :::
@@ -47,7 +47,7 @@
 ![Software](/assets/img/portfolio/software_pointer.png){.img-fluid}
 
 ::: {.portfolio-links}
-[+](assets/img/portfolio/software_pointer.png){data-gallery="overviewGallery" .portfolio-lightbox title="Software"}
+[+](/assets/img/portfolio/software_pointer.png){data-gallery="overviewGallery" .portfolio-lightbox title="Software"}
 [link](/software.html){title="Software"}
 :::
 :::
@@ -59,8 +59,8 @@
 ![Extra Science](/assets/img/portfolio/etc_duck.png){.img-fluid}
 
 ::: {.portfolio-links}
-[+](assets/img/portfolio/etc_duck.png){data-gallery="overviewGallery" .portfolio-lightbox title="Extra Science"}
-[link](/misc.html){title="Grab bag"}
+[+](/assets/img/portfolio/etc_duck.png){data-gallery="overviewGallery" .portfolio-lightbox title="Extra Science"}
+[link](/science/etc.html){title="Grab bag"}
 :::
 :::
 :::
@@ -113,17 +113,17 @@ Paleoclimate research is interdisciplinary and messy, and the reasoning behind a
 
 ::: {.col-lg-8 .col-md-6 .portfolio-item .filter-software}
 
-###### [Pyleoclim](/software.html#pyleoclim)
+###### [Pyleoclim](/software/linkedearth.html#pyleoclim)
 Developer, Pyleoclim (2022–present)
 
 ::: {.citation-list}
 - **2022**. Khider, D., Emile-Geay, J., Zhu, F., James, A., Landers, J.P., Ratnakar, V. & Gil, Y.. "Pyleoclim: Paleoclimate Timeseries Analysis and Visualization With Python". Paleoceanography and Paleoclimatology.
 :::
 
-###### [Climate Critters](/software.html#climatecrittes)
+###### [Climate Critters](/software/linkedearth.html#climatecritters)
 Developer, ClimateCritters (2023–present)
 
-###### [Cedarkit](/software.html#cedarkit)
+###### [Cedarkit](/software/ccm.html#cedarkit)
 Developer, CedarKit (2025–present)
 
 :::
@@ -144,13 +144,6 @@ Water masses leave a signature in how ocean tracers like temperature and salinit
 :::
 
 [Conference talks & Posters](/science/etc.html#c14-ref)
-
-
-
-
-
-##### Carbon Cycle
-
 
 
 :::

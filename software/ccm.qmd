@@ -14,7 +14,6 @@ format:
 :::
 
 ### CedarKit {#cedarkit}
-[website]()
 [Github](https://github.com/jordanplanders/cedar_util)
 
 CedarKit is a toolkit to support Convergent Cross Mapping (CCM) and Empirical Dynamic Modeling (EDM) analysis, built on top of pyEDM. It handles the parts around the actual causal-inference calculations: setting up a project, running and organizing the computations, processing the results, and visualizing them.
@@ -27,4 +26,6 @@ It also includes a set of plots for the standard CCM diagnostics, grid layouts f
 
 GPL-3.0 licensed.
 
-### PapertrailCM (coming soon)
+### PapertrailCM 
+
+(Coming soon!)

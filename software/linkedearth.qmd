@@ -15,10 +15,13 @@ format:
 [Documentation](https://pyleoclim-util.readthedocs.io/en/latest/)
 [Github](https://github.com/LinkedEarth/Pyleoclim_util)
 
+Pyleoclim is an open-source Python package for analyzing and visualizing paleoclimate timeseries, built on the standard scientific Python stack so it fits naturally alongside other tools rather than replacing them. It's designed around the recurring headaches of paleoclimate data specifically — age uncertainty, uneven sampling, short records — with spectral, wavelet, and correlation methods that account for those issues directly instead of assuming them away.
+
 ### Climate Critters {#climatecritters}
-[overview & documentation](http://linked.earth/ClimateCritters/stable/)
+[Overview & Documentation](http://linked.earth/ClimateCritters/stable/)
 [Github](https://github.com/LinkedEarth/ClimateCritters)
 
 ClimateCritters is a Python package that gathers minimal, well-understood models of climate dynamics into one unified, object-oriented interface — an attempt to bring the "model organism" approach from biology to climate science. Rather than building ever-larger Earth System Models, ClimateCritters focuses on small, fully-explorable systems (like Lorenz's 3-equation convection model, which birthed chaos theory) that still exhibit the hallmarks of complex behavior: chaos, multiple equilibria, tipping points, and intermittency.
 
 ### Misc Tools
+Want to wrap your package overview, tutorials and API documentation into one tidy package like Climate Critters? Check out this little package I concocted: [Quarto Docsite Smith](https://github.com/jordanplanders/quarto_docsite_smith)

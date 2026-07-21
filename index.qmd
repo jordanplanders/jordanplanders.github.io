@@ -76,9 +76,9 @@ I use Convergent Cross Mapping (CCM) to approach these questions more carefully.
 :::
 
 ::: {.resume-item}
-#### Data Scientist, Neuroscience
+#### Data Scientist, Greenwings Biomedical Inc. (Neuroscience)
 ##### **2017 – 2019**
-- _NSF iCorps Entrepeneurial Lead_
+- _NSF iCorps Entrepreneurial Lead_
 - _Assessing cognitive impairment using MF-DFA_
 :::
 
@@ -108,59 +108,38 @@ I use Convergent Cross Mapping (CCM) to approach these questions more carefully.
 
 ::: {.container}
 
+
+
+::: {#teaching .teaching}
+::: {.section-title}
+## Teaching & Community Involvement
+### USC
+  - 2026 Teaching Assistant, GEOL351: Climate Dynamics
+  - 2024 Teaching Assistant, GEOL351: Climate Dynamics
+  - 2023 Teaching Assistant, GEOL150: Climate Change
+  - 2022 Teaching Assistant, GEOL351: Climate Dynamics
+
+### Columbia University
+  - 2012 Teaching Assistant, Chemical Oceanography
+  - 2010 Teaching Assistant, Atmospheric Science
+
+### Workshops & Outreach
+  - 2024-2025 Paleo/Environmental Seminar Co-Organizer (USC)
+  - 2023-2024 Graduate Student Representative (Earth Sciences Department, USC)
+  - 2023 Instructor, BYOD Workshop (USC/ISI)
+  - 2010 Outreach contributor, Demerara Rise Cruise Blog (WHOI)
+:::
+:::
+
 ::: {#contact .contact}
 ::: {.section-title}
 ## Get in touch! {#contact-section}
 
-Think there might be an idea we could collaborate on? Get in touch!
+Think there might be an idea we could collaborate on? Have a postdoc opportunity that needs filling? Get in touch! 
+(Contact information in my [CV](/assets/file/jlanders_CV.pdf) as a (likely ineffective) tactic to reduce spam.)
 
 :::
 :::
-:::
-<!-- ::: {#teaching .teaching}
-::: {.section-title}
-## Teaching
-### USC
-  - "2024 Teaching Assistant, GEOL351: Climate Dynamics"
-  - "2023 Teaching Assistant, GEOL150: Climate Change"
-  - "2022 Teaching Assistant, GEOL351: Climate Dynamics"
 
-### Columbia University
-  - "2012 Teaching Assistant, Chemical Oceanography"
-  - "2010 Teaching Assistant, Atmospheric Science"
-
-### Workshops
-  - "2023 Instructor, BYOD Workshop (USC/ISI)"
-:::
-::: -->
-
-
-
-
-
-
-<!-- 
-::: {#presentations .presentations}
-::: {.section-title}
-## [Recent Presentations](./presentations.qmd)
-:::
 :::
 
-::: {#community .community}
-::: {.section-title}
-## Community Involvement
-- Contributor, Pangeo-Forge (2022–present)
-- Lead, PaleoBooks Library (2022–present)
-- Outreach contributor, Demerara Rise Cruise Blog (2010)
-:::
-:::
-
-::: {#software .software}
-::: {.section-title}
-## [Software Development](./software.qmd) 
-- Developer, Pyleoclim (2022–present)
-- Developer, PaleoBeasts (2023–present)
-- Developer, CedarKit (2025–present)
-:::
-:::
-::: -->
