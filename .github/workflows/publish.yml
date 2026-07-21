@@ -16,41 +16,39 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
 
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
-
-      # scripts/build_sidebar_nav.py runs as a pre-render hook (see
-      # _quarto.yml) and imports PyYAML.
+          python-version: "3.12"
       - name: Install Python dependencies
-        run: pip install pyyaml
-
+        run: pip install pyyaml   
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2   
+          
       - name: Render site
         run: quarto render
+        working-directory: .              
 
       - name: Upload site as Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Deploy to gh-pages 
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: _site
+          keep_files: true
+
+
