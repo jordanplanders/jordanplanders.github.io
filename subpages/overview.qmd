@@ -69,21 +69,25 @@
 **Nonlinear Causality in Paleoclimate:** nonlinear dynamics, proxy-data synthesis, and causal analyses of Holocene climate variability.
 
 ::: {.citation-list}
-- **2026**. Landers, J.P., Emile-Geay, J., James, A.K., Munch, S.B., Bard, E., & Khider, D.. "A causal examination of the solar influence on Holocene climate". Geophy. Res. Let. Accepted.
+{{< include subpages/generated/overview/paleoclimate.qmd >}}
 :::
 
 **Open Science & Edu:** transparent workflows, teaching, and community-first scientific communication.
 
+::: {.citation-list}
+{{< include subpages/generated/overview/open-edu.qmd >}}
+:::
+
 **Software:** open-source scientific Python tools for paleoclimate analysis and reproducible research.
 
 ::: {.citation-list}
-- **2022**. Khider, D., Emile-Geay, J., Zhu, F., James, A., Landers, J.P., Ratnakar, V. & Gil, Y.. "Pyleoclim: Paleoclimate Timeseries Analysis and Visualization With Python". Paleoceanography and Paleoclimatology.
+{{< include subpages/generated/overview/software.qmd >}}
 :::
 
 **Extra Science:**
 
 ::: {.citation-list}
-- **2021**. Guilderson, T.P., Allen, K.A., Landers, J.P., Ettwein, V.J. & Cook, M.S.. "Can We Better Constrain the Timing of GNAIW/UNADW Variability in the Western Equatorial Atlantic and Its Relationship to Climate Change During the Last Deglaciation?". Paleoceanography and Paleoclimatology.
+{{< include subpages/generated/overview/etc.qmd >}}
 :::
 :::
 
@@ -92,7 +96,7 @@
 In nonlinear systems, such as Earth’s climate, that evolve under the influence of internal states, feedback mechanisms, and external drivers, characterizing causality is no simple task. I use Convergent Cross-Mapping to test for genuine causal coupling in Paleoclimate contexts where correlation alone can be misleading or even absent between truly linked variables.
 
 ::: {.citation-list}
-- **2026**. Landers, J.P., Emile-Geay, J., James, A.K., Munch, S.B., Bard, E., & Khider, D.. "A causal examination of the solar influence on Holocene climate". Geophy. Res. Let. Accepted.
+{{< include subpages/generated/overview/paleoclimate.qmd >}}
 :::
 
 [Conference Talks & Posters](/science/nonlin_causality.html#holocene_ccm-ref)
@@ -117,7 +121,7 @@ Paleoclimate research is interdisciplinary and messy, and the reasoning behind a
 Developer, Pyleoclim (2022–present)
 
 ::: {.citation-list}
-- **2022**. Khider, D., Emile-Geay, J., Zhu, F., James, A., Landers, J.P., Ratnakar, V. & Gil, Y.. "Pyleoclim: Paleoclimate Timeseries Analysis and Visualization With Python". Paleoceanography and Paleoclimatology.
+{{< include subpages/generated/overview/software.qmd >}}
 :::
 
 ###### [Climate Critters](/software/linkedearth.html#climatecritters)
@@ -140,7 +144,7 @@ Water masses leave a signature in how ocean tracers like temperature and salinit
 ##### [C14](/science/etc.html#c14-ref)
 
 ::: {.citation-list}
-- **2021**. Guilderson, T.P., Allen, K.A., Landers, J.P., Ettwein, V.J. & Cook, M.S.. "Can We Better Constrain the Timing of GNAIW/UNADW Variability in the Western Equatorial Atlantic and Its Relationship to Climate Change During the Last Deglaciation?". Paleoceanography and Paleoclimatology.
+{{< include subpages/generated/overview/etc.qmd >}}
 :::
 
 [Conference talks & Posters](/science/etc.html#c14-ref)
@@ -148,4 +152,3 @@ Water masses leave a signature in how ocean tracers like temperature and salinit
 
 :::
 :::
-

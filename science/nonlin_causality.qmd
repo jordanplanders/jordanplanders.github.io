@@ -43,21 +43,19 @@ The results show statistically significant evidence that TSI causally influenced
 ### References {#holocene_ccm-ref}
 
 ::: {.citation-list}
-- **2026**. Landers, J.P., Emile-Geay, J., James, A.K., Munch, S.B., Bard, E., & Khider, D.. "A causal examination of the solar influence on Holocene climate". Geophy. Res. Let. Accepted.
+{{< include ../subpages/generated/nonlinear-causality/references.qmd >}}
 :::
 
 #### Talks
 
 ::: {.citation-list}
-- **2025**. Landers, J.P., Emile-Geay, J., James, A.K., Munch, S.B., Bard, E., & Khider, D. "Detecting Nonlinear Solar--Climate Linkages over the Holocene with Convergent Cross-Mapping". AGU Fall Meeting 2025. [link](https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/PP11A-03).
-- **2025**. J.P. Landers. "Nothing like the Sun? A causal examination of the solar influence on Holocene climate". Paleo Seminar, University of Washington. Seattle, WA.
-- **2024**. J.P. Landers. "Nothing like the Sun? A causal examination of the solar influence on Holocene climate". Paleo/Environmental Seminar, University of Southern Californa. Los Angeles, CA.
+{{< include ../subpages/generated/nonlinear-causality/talks.qmd >}}
 :::
 
 #### Posters
 
 ::: {.citation-list}
-- **2025**. Landers, J.P., Emile-Geay, J., James, A.K., Munch, S.B., Bard, E. & Khider, D.. "Did the Sun influence Holocene climate?". 15th International Conference on Paleoceanography (ICP15). Bengaluru, India.
+{{< include ../subpages/generated/nonlinear-causality/posters.qmd >}}
 :::
 
 

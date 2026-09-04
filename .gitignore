@@ -1,5 +1,6 @@
 /.quarto/
 **/*.quarto_ipynb
 /_site/
+/subpages/generated/
 /.idea/
 index2.html

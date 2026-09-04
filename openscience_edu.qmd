@@ -29,9 +29,13 @@ All entries are publicly available and organized in the centralized PaleoBooks G
 ##### Posters
 
 ::: {.citation-list}
-- **2025**. Landers, J.P., Emile-Geay, J., Khider,K., James, A.K., Gondhalekar, T., McKay, N., & Cropper, S.. “PaleoBooks: A Community Gallery for Transparent and Reusable Paleoclimate Workflows". AGU Fall Meeting 2025. New Orleans, LA. Abstract IN43D-0427, December 18, 2025. [link](https://agu25.ipostersessions.com/?s=C4-52-B2-B3-D4-E1-CC-5D-B2-C2-D8-CB-04-1D-04-6D).
-- **2023**. Khider, D., Ratnakar, V., Emile-Geay, J., Zhu, F., James, A.K., Landers, J.P., Gil, Y., Osorio, M., Vargas, H. & McKay, N.. "PaleoCube: Enabling cloud-based paleoclimatology". AGU Fall Meeting 2023.
-- **2023**. Landers, J.P., Emile-Geay, J. & Khider, D.. "PaleoBooks: A Library of JupyterBooks for Paleoclimate Research". Building upon the EarthCube Community. Information Sciences Institute, Marina del Rey, CA.
+{{< include subpages/generated/open-science/posters.qmd >}}
+:::
+
+##### Educational Materials
+
+::: {.citation-list}
+{{< include subpages/generated/open-science/educational-materials.qmd >}}
 :::
 
 ##### Presentations

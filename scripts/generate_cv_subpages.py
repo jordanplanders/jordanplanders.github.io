@@ -14,9 +14,11 @@ And writes:
   - subpages/educational_materials.qmd   (type: edumat)
   - subpages/seminars.qmd                (type: talk)
   - subpages/conference_talks.qmd        (type: unpublished)
+  - subpages/software.qmd                (type: software)
+  - subpages/generated/...               (site-specific routed fragments)
 
-Not wired into _quarto.yml's pre-render (unlike build_sidebar_nav.py in
-this same directory) — run it by hand after editing the .bib file.
+It is run by _quarto.yml before each site render, so editing the .bib file
+updates every generated fragment.
 """
 
 from __future__ import annotations
@@ -37,6 +39,23 @@ CATEGORY_TO_TYPE = {
     "educational_materials.qmd": "edumat",
     "seminars.qmd": "talk",
     "conference_talks.qmd": "unpublished",
+    "software.qmd": "software",
+}
+
+# The route names are deliberately separate from the CV entry type. An item
+# may, for example, be an article in the CV while also belonging on the
+# nonlinear-causality page and in the paleoclimate overview.
+OVERVIEW_SECTIONS = ("paleoclimate", "open-edu", "software", "etc")
+SITE_PAGE_SECTIONS = {
+    "nonlinear-causality": {
+        "references": ("article",),
+        "talks": ("unpublished", "talk"),
+        "posters": ("inproceedings",),
+    },
+    "open-science": {
+        "posters": ("inproceedings",),
+        "educational-materials": ("edumat",),
+    },
 }
 
 
@@ -404,6 +423,16 @@ def sanitize_url(url: str) -> str:
     return text
 
 
+def doi_url(doi: str) -> str:
+    """Return a clickable DOI resolver URL for either DOI input form."""
+    text = normalize_text(doi)
+    if not text:
+        return ""
+    if re.match(r"https?://", text, flags=re.IGNORECASE):
+        return text
+    return "https://doi.org/" + text.removeprefix("doi:").strip()
+
+
 # Recurring venue names whose BibTeX booktitle drops the year (AGU's
 # own abstract-submission system exports every entry with the generic
 # booktitle "AGU Fall Meeting Abstracts", regardless of which year's
@@ -435,7 +464,9 @@ def format_entry(entry: BibEntry) -> str:
     )
     address = clean_prose(f.get("address", ""))
     note = clean_prose(f.get("note", ""))
-    url = sanitize_url(f.get("url", "")) or embedded_url
+    # Prefer an explicitly supplied URL. If none is present, a DOI resolver is
+    # the most stable public link to a paper and avoids duplicate URL fields.
+    url = sanitize_url(f.get("url", "")) or embedded_url or doi_url(f.get("doi", ""))
 
     parts: List[str] = []
     if year:
@@ -471,6 +502,15 @@ def sort_entries(entries: List[BibEntry]) -> List[BibEntry]:
     return sorted(entries, key=sort_key, reverse=True)
 
 
+def split_route_values(value: str) -> set[str]:
+    """Return the comma-separated routing values from a custom BibTeX field."""
+    return {
+        item.strip().lower()
+        for item in clean_prose(value).split(",")
+        if item.strip()
+    }
+
+
 def build_output(entries: List[BibEntry]) -> str:
     if not entries:
         return "<!-- No entries found for this category. -->\n"
@@ -491,6 +531,32 @@ def main() -> None:
         filtered = sort_entries(filtered)
         output_text = build_output(filtered)
         (OUT_DIR / filename).write_text(output_text, encoding="utf-8")
+
+    generated_dir = OUT_DIR / "generated"
+    for overview_section in OVERVIEW_SECTIONS:
+        entries = [
+            entry
+            for entry in all_entries
+            if overview_section in split_route_values(
+                entry.fields.get("site_overview", "")
+            )
+        ]
+        path = generated_dir / "overview" / f"{overview_section}.qmd"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        output_text = build_output(sort_entries(entries))
+        path.write_text(output_text, encoding="utf-8")
+
+    for page, sections in SITE_PAGE_SECTIONS.items():
+        for section, entry_types in sections.items():
+            entries = [
+                entry
+                for entry in all_entries
+                if entry.entry_type in entry_types
+                and page in split_route_values(entry.fields.get("site_pages", ""))
+            ]
+            path = generated_dir / page / f"{section}.qmd"
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(build_output(sort_entries(entries)), encoding="utf-8")
 
     print(f"Parsed {len(all_entries)} entries from {BIB_PATH}")
     for filename, bib_type in CATEGORY_TO_TYPE.items():

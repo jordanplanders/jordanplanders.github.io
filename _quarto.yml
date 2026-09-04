@@ -1,8 +1,13 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "*.qmd"
+    - "!subpages/overview.qmd"
+    - "!subpages/generated/**"
   pre-render:
     - python3 scripts/build_sidebar_nav.py
+    - python3 scripts/generate_cv_subpages.py
 # metadata-files:
 #   - satellite/_metadata.yml
 
